@@ -1,0 +1,18 @@
+Converting GML script: ${project_dir}\scripts\scr_sn_set_seed\scr_sn_set_seed.gml
+Converted description /// @description scr_sn_set_seed(seed_integer);/// @param seed_integer
+
+Converting GML script: ${project_dir}\scripts\scr_sn_get_seed\scr_sn_get_seed.gml
+Converted description /// @description scr_sn_get_seed();
+
+Converting GML script: ${project_dir}\scripts\scr_sn_noise\scr_sn_noise.gml
+Converted description /// @description scr_sn_noise(min, max, octaves, persistence, scale, x, [y, z]);/// @param min
+/// @param  max
+/// @param  octaves
+/// @param  persistence
+/// @param  scale
+/// @param  x
+/// @param  [y
+/// @param  z]
+
+Converting GML script: ${project_dir}\scripts\_sn_generate_perm\_sn_generate_perm.gml
+Converted description /// @description _scr_sn_generate_perm();

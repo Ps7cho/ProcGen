@@ -1,0 +1,1258 @@
+Converting GML script: ${project_dir}\scripts\_scr_cbGUI_onChange_cb_handler_x2\_scr_cbGUI_onChange_cb_handler_x2.gml
+Converted description /// @description onChange Callback handling
+
+Converting GML script: ${project_dir}\scripts\_scr_cbGUI_onRelease_cb_handler\_scr_cbGUI_onRelease_cb_handler.gml
+Converted description /// @description _scr_cbGUI_onRelease_cb_handler();
+
+Converting GML script: ${project_dir}\scripts\_scr_cbGUI_onSubmit_cb_handler\_scr_cbGUI_onSubmit_cb_handler.gml
+Converted description /// @description _scr_cbGUI_onSubmit_cb_handler();
+
+Converting GML script: ${project_dir}\scripts\_scr_cbGUI_onMouseOver_cb_handler\_scr_cbGUI_onMouseOver_cb_handler.gml
+Converted description /// @description _scr_cbGUI_onMouseOver_cb_handler();
+
+Converting GML script: ${project_dir}\scripts\_scr_cbGUI_onMouseOut_cb_handler\_scr_cbGUI_onMouseOut_cb_handler.gml
+Converted description /// @description _scr_cbGUI_onMouseOut_cb_handler();
+
+Converting GML script: ${project_dir}\scripts\_scr_cbGUI_onMouseDown_cb_handler\_scr_cbGUI_onMouseDown_cb_handler.gml
+Converted description /// @description _scr_cbGUI_onMouseDown_cb_handler();
+
+Converting GML script: ${project_dir}\scripts\_scr_cbGUI_onMouseUp_cb_handler\_scr_cbGUI_onMouseUp_cb_handler.gml
+Converted description /// @description _scr_cbGUI_onMouseUp_cb_handler();
+
+Converting GML script: ${project_dir}\scripts\_scr_cbGUI_set_target\_scr_cbGUI_set_target.gml
+Error: variable 'variable_instance_exists' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\scripts\_scr_cbGUI_remote_handler\_scr_cbGUI_remote_handler.gml
+Error: variable 'variable_instance_get' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Error: variable 'variable_instance_set' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description  Listen and remote control experimental features
+
+Converting GML script: ${project_dir}\scripts\scr_cbGUI_set_gui_size\scr_cbGUI_set_gui_size.gml
+Converted description /// @description  scr_cbGUI_set_gui_size(float);/// @param float
+
+Converting GML script: ${project_dir}\scripts\scr_cbGUI_mouse\scr_cbGUI_mouse.gml
+Converted description /// @description scr_cbGUI_mouse(boolean);/// @param boolean
+
+Converting GML script: ${project_dir}\scripts\scr_cbGUI_track_depth_step\scr_cbGUI_track_depth_step.gml
+Converted description /// @description scr_cbGUI_track_depth_step(gui_mouse_x, gui_mouse_y);/// @param gui_mouse_x
+/// @param  gui_mouse_y
+
+Converting GML script: ${project_dir}\scripts\scr_cbGUI_set_active\scr_cbGUI_set_active.gml
+Converted description /// @description  scr_cbGUI_set_active(cbGUI_instance);/// @param cbGUI_instance
+
+Converting GML script: ${project_dir}\scripts\scr_cbGUI_mark_as_changed\scr_cbGUI_mark_as_changed.gml
+Converted description /// @description  scr_cbGUI_mark_as_changed(cbGUI_instance);/// @param cbGUI_instance
+
+Converting GML script: ${project_dir}\scripts\_scr_textbox_inserttext\_scr_textbox_inserttext.gml
+Converted description /// @description _scr_textbox_inserttext(string);/// @param string
+Converted string - line 71: "\" -> "\\"
+
+Converting GML script: ${project_dir}\scripts\_scr_textbox_setvalue\_scr_textbox_setvalue.gml
+Converted description /// @description _scr_textbox_setvalue(t);/// @param t
+
+Converting GML script: ${project_dir}\scripts\_scr_textbox_getcursorpos\_scr_textbox_getcursorpos.gml
+Converted description /// @description _scr_textbox_getcursorpos(pixels);/// @param pixels
+
+Converting GML script: ${project_dir}\scripts\_scr_textbox_textwidth\_scr_textbox_textwidth.gml
+Converted description /// @description _scr_textbox_textwidth(cursorpos_int);/// @param cursorpos_int
+
+Converting GML script: ${project_dir}\scripts\_scr_textbox_setcursorpos\_scr_textbox_setcursorpos.gml
+Converted description /// @description _scr_textbox_setcursorpos(int);/// @param int
+
+Converting GML script: ${project_dir}\scripts\_scr_textbox_remove\_scr_textbox_remove.gml
+Converted description /// @description  _scr_textbox_remove()
+
+Converting GML script: ${project_dir}\scripts\_scr_textbox_calcsizes\_scr_textbox_calcsizes.gml
+Converted description /// @description  _scr_textbox_calcsizes();
+
+Converting GML script: ${project_dir}\scripts\_scr_textbox_getselectedtext\_scr_textbox_getselectedtext.gml
+Converted description /// @description _scr_textbox_getselectedtext();
+
+Converting GML script: ${project_dir}\scripts\_scr_textbox_step_ctrl\_scr_textbox_step_ctrl.gml
+Converted description /// @description ctrl interactions
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_clear\scr_textbox_clear.gml
+Converted description /// @description  scr_textbox_clear(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_set_value\scr_textbox_set_value.gml
+Converted description /// @description  scr_textbox_set_value(textbox_instance, string);/// @param textbox_instance
+/// @param  string
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_get_value\scr_textbox_get_value.gml
+Converted description /// @description  scr_textbox_get_value(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_set_sprite\scr_textbox_set_sprite.gml
+Converted description /// @description  scr_textbox_set_sprite(textbox_instance, sprite_index);/// @param textbox_instance
+/// @param  sprite_index
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_set_padding\scr_textbox_set_padding.gml
+Converted description /// @description  scr_textbox_set_padding(textbox_instance, padding);/// @param textbox_instance
+/// @param  padding
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_set_indent\scr_textbox_set_indent.gml
+Converted description /// @description  scr_textbox_set_indent(textbox_instance, indent);/// @param textbox_instance
+/// @param  indent
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_set_font\scr_textbox_set_font.gml
+Converted description /// @description  scr_textbox_set_font(textbox_instance, font);/// @param textbox_instance
+/// @param  font
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_set_text_shadow\scr_textbox_set_text_shadow.gml
+Converted description /// @description  scr_textbox_set_text_shadow(textbox_instance, boolien, offset_px, color, alpha);/// @param textbox_instance
+/// @param  boolien
+/// @param  offset_px
+/// @param  color
+/// @param  alpha
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_set_color\scr_textbox_set_color.gml
+Converted description /// @description  scr_textbox_set_color(textbox_instance, [text_normal_color], [text_disabled_color], [cursor_color], [selection_color], [unfocused_selection_color]);/// @param textbox_instance
+/// @param  [text_normal_color]
+/// @param  [text_disabled_color]
+/// @param  [cursor_color]
+/// @param  [selection_color]
+/// @param  [unfocused_selection_color]
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_enable_char_validation\scr_textbox_enable_char_validation.gml
+Converted description /// @description  scr_textbox_enable_char_validation(textbox_instance, boolien);/// @param textbox_instance
+/// @param  boolien
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_set_allowed_chars\scr_textbox_set_allowed_chars.gml
+Converted description /// @description  scr_textbox_set_allowed_chars(textbox_instance, string);/// @param textbox_instance
+/// @param  string
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_get_allowed_chars\scr_textbox_get_allowed_chars.gml
+Converted description /// @description  scr_textbox_get_allowed_chars(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_set_target\scr_textbox_set_target.gml
+Converted description /// @description  scr_textbox_set_target(textbox_instance, target_object, target_variable);/// @param textbox_instance
+/// @param  target_object
+/// @param  target_variable
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_unset_target\scr_textbox_unset_target.gml
+Converted description /// @description  scr_textbox_unset_target(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_get_target\scr_textbox_get_target.gml
+Converted description /// @description  scr_textbox_get_target(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_get_target_variable_name\scr_textbox_get_target_variable_name.gml
+Converted description /// @description  scr_textbox_get_target_variable_name(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_set_selection\scr_textbox_set_selection.gml
+Converted description /// @description  scr_textbox_set_selection(textbox_instance, start_no, end_no);/// @param textbox_instance
+/// @param  start_no
+/// @param  end_no
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_get_selection_start\scr_textbox_get_selection_start.gml
+Converted description /// @description  scr_textbox_get_selection_start(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_get_selection_end\scr_textbox_get_selection_end.gml
+Converted description /// @description  scr_textbox_get_selection_end(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_get_selected_text\scr_textbox_get_selected_text.gml
+Converted description /// @description  scr_textbox_get_selected_text(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_delete_selected_text\scr_textbox_delete_selected_text.gml
+Converted description /// @description  scr_textbox_delete_selected_text(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_insert_text\scr_textbox_insert_text.gml
+Converted description /// @description  scr_textbox_insert_text(textbox_instance, string);/// @param textbox_instance
+/// @param  string
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_select_all\scr_textbox_select_all.gml
+Converted description /// @description  scr_textbox_select_all(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_unselect\scr_textbox_unselect.gml
+Converted description /// @description  scr_textbox_unselect(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_get_text_length\scr_textbox_get_text_length.gml
+Converted description /// @description  scr_textbox_get_text_length(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_set_cursor_position\scr_textbox_set_cursor_position.gml
+Converted description /// @description  scr_textbox_set_cursor_position(textbox_instance, int);/// @param textbox_instance
+/// @param  int
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_cursor_go_to_start\scr_textbox_cursor_go_to_start.gml
+Converted description /// @description  scr_textbox_cursor_go_to_start(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_cursor_go_to_end\scr_textbox_cursor_go_to_end.gml
+Converted description /// @description  scr_textbox_cursor_go_to_end(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_get_cursor_position\scr_textbox_get_cursor_position.gml
+Converted description /// @description  scr_textbox_get_cursor_position(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_is_selected\scr_textbox_is_selected.gml
+Converted description /// @description  scr_textbox_is_selected(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_is_selection_started\scr_textbox_is_selection_started.gml
+Converted description /// @description  scr_textbox_is_selection_started(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_is_empty\scr_textbox_is_empty.gml
+Converted description /// @description  scr_textbox_is_empty(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_set_on_change_cb\scr_textbox_set_on_change_cb.gml
+Converted description /// @description  scr_textbox_set_on_change_cb(textbox_instance, script_asset, [arguments_as_array]);/// @param textbox_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_unset_on_change_cb\scr_textbox_unset_on_change_cb.gml
+Converted description /// @description  scr_textbox_unset_on_change_cb(textbox_instance);/// @param textbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_set_on_submit_cb\scr_textbox_set_on_submit_cb.gml
+Converted description /// @description  scr_textbox_set_on_submit_cb(textbox_instance, script_asset, [arguments_as_array]);/// @param textbox_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_unset_on_submit_cb\scr_textbox_unset_on_submit_cb.gml
+Converted description /// @description  scr_textbox_unset_on_submit_cb(textbox_object);/// @param textbox_object
+
+Converting GML script: ${project_dir}\scripts\scr_textbox_set_sizes\scr_textbox_set_sizes.gml
+Converted description /// @description  scr_textbox_set_sizes(textbox_instance, width_px, height_px);/// @param textbox_instance
+/// @param  width_px
+/// @param  height_px
+
+Converting GML script: ${project_dir}\scripts\_scr_slider_setcursorpos\_scr_slider_setcursorpos.gml
+Converted description /// @description _scr_slider_setcursorpos(x);/// @param x
+
+Converting GML script: ${project_dir}\scripts\_scr_slider_setvalue\_scr_slider_setvalue.gml
+Converted description /// @description _scr_slider_setvalue(x);/// @param x
+
+Converting GML script: ${project_dir}\scripts\_scr_slider_setrange\_scr_slider_setrange.gml
+Converted description /// @description _scr_slider_setrange(i, j);/// @param i
+/// @param  j
+
+Converting GML script: ${project_dir}\scripts\_scr_slider_setperc\_scr_slider_setperc.gml
+Converted description /// @description _scr_slider_setperc(double);/// @param double
+
+Converting GML script: ${project_dir}\scripts\_scr_slider_getcursorpos\_scr_slider_getcursorpos.gml
+Converted description /// @description _scr_slider_getcursorpos();
+
+Converting GML script: ${project_dir}\scripts\_scr_slider_calcsizes\_scr_slider_calcsizes.gml
+Converted description /// @description _scr_slider_calcsizes();
+
+Converting GML script: ${project_dir}\scripts\_scr_slider_calcindicator\_scr_slider_calcindicator.gml
+Converted description /// @description _scr_slider_calcindicator();
+
+Converting GML script: ${project_dir}\scripts\scr_slider_get_target\scr_slider_get_target.gml
+Converted description /// @description  scr_slider_get_target(slider_instance);/// @param slider_instance
+
+Converting GML script: ${project_dir}\scripts\scr_slider_get_target_variable_name\scr_slider_get_target_variable_name.gml
+Converted description /// @description  scr_slider_get_target_variable_name(slider_instance);/// @param slider_instance
+
+Converting GML script: ${project_dir}\scripts\scr_slider_set_sprite\scr_slider_set_sprite.gml
+Converted description /// @description  scr_slider_set_sprite(slider_instance, sprite_index, sprite_indicator, sprite_button);/// @param slider_instance
+/// @param  sprite_index
+/// @param  sprite_indicator
+/// @param  sprite_button
+
+Converting GML script: ${project_dir}\scripts\scr_slider_set_sizes\scr_slider_set_sizes.gml
+Converted description /// @description  scr_slider_set_sizes(slider_instance, width_px, height_px);/// @param slider_instance
+/// @param  width_px
+/// @param  height_px
+
+Converting GML script: ${project_dir}\scripts\scr_slider_set_padding\scr_slider_set_padding.gml
+Converted description /// @description  scr_slider_set_padding(slider_instance, hPadding_px, vPadding_px);/// @param slider_instance
+/// @param  hPadding_px
+/// @param  vPadding_px
+
+Converting GML script: ${project_dir}\scripts\scr_slider_set_value\scr_slider_set_value.gml
+Converted description /// @description  scr_slider_set_value(slider_instance, float);/// @param slider_instance
+/// @param  float
+
+Converting GML script: ${project_dir}\scripts\scr_slider_get_value\scr_slider_get_value.gml
+Converted description /// @description scr_slider_get_value(slider_instance);/// @param slider_instance
+
+Converting GML script: ${project_dir}\scripts\scr_slider_get_percentage\scr_slider_get_percentage.gml
+Converted description /// @description  scr_slider_get_percentage(slider_instance);/// @param slider_instance
+
+Converting GML script: ${project_dir}\scripts\scr_slider_set_percentage\scr_slider_set_percentage.gml
+Converted description /// @description scr_slider_set_percentage(slider_instance, float);/// @param slider_instance
+/// @param  float
+
+Converting GML script: ${project_dir}\scripts\scr_slider_set_step\scr_slider_set_step.gml
+Converted description /// @description  scr_slider_set_step(slider_instance, step_value_number);/// @param slider_instance
+/// @param  step_value_number
+
+Converting GML script: ${project_dir}\scripts\scr_slider_get_step\scr_slider_get_step.gml
+Converted description /// @description  scr_slider_get_step(slider_instance);/// @param slider_instance
+
+Converting GML script: ${project_dir}\scripts\scr_slider_set_range\scr_slider_set_range.gml
+Converted description /// @description  scr_slider_set_range(slider_instance, min_value_number, max_value_number);/// @param slider_instance
+/// @param  min_value_number
+/// @param  max_value_number
+
+Converting GML script: ${project_dir}\scripts\scr_slider_get_min_limit\scr_slider_get_min_limit.gml
+Converted description /// @description  scr_slider_get_min_limit(slider_instance);/// @param slider_instance
+
+Converting GML script: ${project_dir}\scripts\scr_slider_get_max_limit\scr_slider_get_max_limit.gml
+Converted description /// @description  scr_slider_get_max_limit(slider_instance);/// @param slider_instance
+
+Converting GML script: ${project_dir}\scripts\scr_slider_set_target\scr_slider_set_target.gml
+Converted description /// @description  scr_slider_set_target(slider_instance, target_object, target_variable);/// @param slider_instance
+/// @param  target_object
+/// @param  target_variable
+
+Converting GML script: ${project_dir}\scripts\scr_slider_set_on_change_cb\scr_slider_set_on_change_cb.gml
+Converted description /// @description  scr_slider_set_on_change_cb(slider_instance, script_asset, [arguments_as_array]);/// @param slider_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script: ${project_dir}\scripts\scr_slider_unset_on_change_cb\scr_slider_unset_on_change_cb.gml
+Converted description /// @description  scr_slider_unset_on_change_cb(slider_instance);/// @param slider_instance
+
+Converting GML script: ${project_dir}\scripts\scr_slider_set_on_release_cb\scr_slider_set_on_release_cb.gml
+Converted description /// @description  scr_slider_set_on_release_cb(slider_instance, script_asset, [arguments_as_array]);/// @param slider_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script: ${project_dir}\scripts\scr_slider_unset_on_release_cb\scr_slider_unset_on_release_cb.gml
+Converted description /// @description  scr_slider_unset_on_release_cb(slider_instance);/// @param slider_instance
+
+Converting GML script: ${project_dir}\scripts\scr_slider_set_color\scr_slider_set_color.gml
+Converted description /// @description  scr_slider_set_color(slider_instance, indicator_bar_color, focused_out_indicator_color, disabled_indicator_color);/// @param slider_instance
+/// @param  indicator_bar_color
+/// @param  focused_out_indicator_color
+/// @param  disabled_indicator_color
+
+Converting GML script: ${project_dir}\scripts\scr_slider_unset_target\scr_slider_unset_target.gml
+Converted description /// @description  scr_slider_unset_target(slider_instance);/// @param slider_instance
+
+Converting GML script: ${project_dir}\scripts\scr_slider_show_button\scr_slider_show_button.gml
+Converted description /// @description  scr_slider_show_button(slider_instance, boolean);/// @param slider_instance
+/// @param  boolean
+
+Converting GML script: ${project_dir}\scripts\_scr_checkbox_togglevalue\_scr_checkbox_togglevalue.gml
+Converted description /// @description _scr_checkbox_togglevalue();
+
+Converting GML script: ${project_dir}\scripts\_scr_checkbox_setvalue\_scr_checkbox_setvalue.gml
+Converted description /// @description _scr_checkbox_setvalue(boolien);/// @param boolien
+
+Converting GML script: ${project_dir}\scripts\scr_checkbox_set_sprite\scr_checkbox_set_sprite.gml
+Converted description /// @description  scr_checkbox_set_sprite(checkbox_instance, normal_sprite, pressed_sprite, tick_sprite);/// @param checkbox_instance
+/// @param  normal_sprite
+/// @param  pressed_sprite
+/// @param  tick_sprite
+
+Converting GML script: ${project_dir}\scripts\scr_checkbox_set_value\scr_checkbox_set_value.gml
+Converted description /// @description  scr_checkbox_set_value(checkbox_instance, boolean);/// @param checkbox_instance
+/// @param  boolean
+
+Converting GML script: ${project_dir}\scripts\scr_checkbox_get_value\scr_checkbox_get_value.gml
+Converted description /// @description  scr_checkbox_get_value(checkbox_instance);/// @param checkbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_checkbox_toggle_value\scr_checkbox_toggle_value.gml
+Converted description /// @description  scr_checkbox_toggle_value(checkbox_instance);/// @param checkbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_checkbox_set_target\scr_checkbox_set_target.gml
+Converted description /// @description  scr_checkbox_set_target(checkbox_instance, target_object, target_variable);/// @param checkbox_instance
+/// @param  target_object
+/// @param  target_variable
+
+Converting GML script: ${project_dir}\scripts\scr_checkbox_set_on_change_cb\scr_checkbox_set_on_change_cb.gml
+Converted description /// @description  scr_checkbox_set_on_change_cb(checkbox_instance, script_asset, [arguments_as_array]);/// @param checkbox_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script: ${project_dir}\scripts\scr_checkbox_unset_on_change_cb\scr_checkbox_unset_on_change_cb.gml
+Converted description /// @description  scr_checkbox_unset_on_change_cb(checkbox_instance);/// @param checkbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_checkbox_get_target\scr_checkbox_get_target.gml
+Converted description /// @description  scr_checkbox_get_target(checkbox_instance);/// @param checkbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_checkbox_get_target_variable_name\scr_checkbox_get_target_variable_name.gml
+Converted description /// @description  scr_checkbox_get_target_variable_name(checkbox_instance);/// @param checkbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_checkbox_unset_target\scr_checkbox_unset_target.gml
+Converted description /// @description  scr_checkbox_unset_target(checkbox_instance);/// @param checkbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_checkbox_set_indent\scr_checkbox_set_indent.gml
+Converted description /// @description  scr_checkbox_set_indent(checkbox_instance, indent);/// @param checkbox_instance
+/// @param  indent
+
+Converting GML script: ${project_dir}\scripts\scr_checkbox_set_padding\scr_checkbox_set_padding.gml
+Converted description /// @description  scr_checkbox_set_padding(checkbox_instance, left_padding_px, top_padding_px);/// @param checkbox_instance
+/// @param  left_padding_px
+/// @param  top_padding_px
+
+Converting GML script: ${project_dir}\scripts\scr_checkbox_get_label\scr_checkbox_get_label.gml
+Converted description /// @description  scr_checkbox_get_label(checkbox_instance);/// @param checkbox_instance
+
+Converting GML script: ${project_dir}\scripts\scr_checkbox_set_label\scr_checkbox_set_label.gml
+Converted description /// @description  scr_checkbox_set_label(checkbox_instance, label_str);/// @param checkbox_instance
+/// @param  label_str
+
+Converting GML script: ${project_dir}\scripts\scr_checkbox_set_color\scr_checkbox_set_color.gml
+Converted description /// @description  scr_checkbox_set_color(checkbox_instance, [text_normal_color], [text_disabled_color], [cursor_color], [selection_color], [unfocused_selection_color]);/// @param checkbox_instance
+/// @param  [text_normal_color]
+/// @param  [text_disabled_color]
+/// @param  [cursor_color]
+/// @param  [selection_color]
+/// @param  [unfocused_selection_color]
+
+Converting GML script: ${project_dir}\scripts\scr_checkbox_set_font\scr_checkbox_set_font.gml
+Converted description /// @description  scr_checkbox_set_font(checkbox_instance, font);/// @param checkbox_instance
+/// @param  font
+
+Converting GML script: ${project_dir}\scripts\_scr_radio_togglevalue\_scr_radio_togglevalue.gml
+Converted description /// @description _scr_radio_togglevalue();
+
+Converting GML script: ${project_dir}\scripts\_scr_radio_setvalue\_scr_radio_setvalue.gml
+Converted description /// @description _scr_radio_setvalue(boolean);/// @param boolean
+
+Converting GML script: ${project_dir}\scripts\_scr_radio_turnalloff\_scr_radio_turnalloff.gml
+Converted description /// @description _scr_radio_turnalloff();
+
+Converting GML script: ${project_dir}\scripts\scr_radio_set_padding\scr_radio_set_padding.gml
+Converted description /// @description  scr_radio_set_padding(radio_instance, left_padding_px, top_padding_px);/// @param radio_instance
+/// @param  left_padding_px
+/// @param  top_padding_px
+
+Converting GML script: ${project_dir}\scripts\scr_radio_set_font\scr_radio_set_font.gml
+Converted description /// @description  scr_radio_set_font(radio_instance, font);/// @param radio_instance
+/// @param  font
+
+Converting GML script: ${project_dir}\scripts\scr_radio_set_color\scr_radio_set_color.gml
+Converted description /// @description  scr_radio_set_color(radio_instance, text_normal_color, text_disabled_color, cursor_color, selection_color, unfocused_selection_color);/// @param radio_instance
+/// @param  text_normal_color
+/// @param  text_disabled_color
+/// @param  cursor_color
+/// @param  selection_color
+/// @param  unfocused_selection_color
+
+Converting GML script: ${project_dir}\scripts\scr_radio_set_label\scr_radio_set_label.gml
+Converted description /// @description  scr_radio_set_label(radio_instance, label_str);/// @param radio_instance
+/// @param  label_str
+
+Converting GML script: ${project_dir}\scripts\scr_radio_get_label\scr_radio_get_label.gml
+Converted description /// @description  scr_radio_get_label(radio_instance);/// @param radio_instance
+
+Converting GML script: ${project_dir}\scripts\scr_radio_group_unselect_all\scr_radio_group_unselect_all.gml
+Converted description /// @description  scr_radio_group_unselect_all(group_id_int);/// @param group_id_int
+
+Converting GML script: ${project_dir}\scripts\scr_radio_get_instance_value\scr_radio_get_instance_value.gml
+Converted description /// @description  scr_radio_get_instance_value(radio_instance);/// @param radio_instance
+
+Converting GML script: ${project_dir}\scripts\scr_radio_set_instance_value\scr_radio_set_instance_value.gml
+Converted description /// @description  scr_radio_set_instance_value(radio_instance, boolean);/// @param radio_instance
+/// @param  boolean
+
+Converting GML script: ${project_dir}\scripts\scr_radio_set_sprite\scr_radio_set_sprite.gml
+Converted description /// @description  scr_radio_set_sprite(radio_instance, normal_sprite, pressed_sprite, tick_sprite);/// @param radio_instance
+/// @param  normal_sprite
+/// @param  pressed_sprite
+/// @param  tick_sprite
+
+Converting GML script: ${project_dir}\scripts\scr_radio_set_group\scr_radio_set_group.gml
+Converted description /// @description  scr_radio_set_group(radio_instance, group_id_int);/// @param radio_instance
+/// @param  group_id_int
+
+Converting GML script: ${project_dir}\scripts\scr_radio_get_group\scr_radio_get_group.gml
+Converted description /// @description  scr_radio_get_group(radio_instance);/// @param radio_instance
+
+Converting GML script: ${project_dir}\scripts\scr_radio_set_name\scr_radio_set_name.gml
+Converted description /// @description  scr_radio_set_name(radio_instance, name_str);/// @param radio_instance
+/// @param  name_str
+
+Converting GML script: ${project_dir}\scripts\scr_radio_get_name\scr_radio_get_name.gml
+Converted description /// @description  scr_radio_get_name(radio_instance);/// @param radio_instance
+
+Converting GML script: ${project_dir}\scripts\scr_radio_get_value\scr_radio_get_value.gml
+Converted description /// @description  scr_radio_get_value(group_id_int);/// @param group_id_int
+
+Converting GML script: ${project_dir}\scripts\scr_radio_set_value\scr_radio_set_value.gml
+Converted description /// @description  scr_radio_set_value(group_id, name);/// @param group_id
+/// @param  name
+
+Converting GML script: ${project_dir}\scripts\scr_radio_set_target\scr_radio_set_target.gml
+Converted description /// @description scr_radio_set_target(radio_instance, target_object, target_variable);/// @param radio_instance
+/// @param  target_object
+/// @param  target_variable
+
+Converting GML script: ${project_dir}\scripts\scr_radio_get_target\scr_radio_get_target.gml
+Converted description /// @description  scr_radio_get_target(radio_instance);/// @param radio_instance
+
+Converting GML script: ${project_dir}\scripts\scr_radio_get_target_variable_name\scr_radio_get_target_variable_name.gml
+Converted description /// @description  scr_radio_get_target_variable_name(radio_instance);/// @param radio_instance
+
+Converting GML script: ${project_dir}\scripts\scr_radio_set_on_change_cb\scr_radio_set_on_change_cb.gml
+Converted description /// @description  scr_radio_set_on_change_cb(radio_instance, script_asset, [arguments_as_array]);/// @param radio_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script: ${project_dir}\scripts\scr_radio_unset_on_change_cb\scr_radio_unset_on_change_cb.gml
+Converted description /// @description  scr_radio_unset_on_change_cb(radio_instance);/// @param radio_instance
+
+Converting GML script: ${project_dir}\scripts\scr_radio_unset_target\scr_radio_unset_target.gml
+Converted description /// @description  scr_radio_unset_target(slider_instance);/// @param slider_instance
+
+Converting GML script: ${project_dir}\scripts\_scr_button_setlabel\_scr_button_setlabel.gml
+Converted description /// @description _scr_button_setlabel(string);/// @param string
+
+Converting GML script: ${project_dir}\scripts\_scr_button_removelabel\_scr_button_removelabel.gml
+Converted description /// @description _scr_button_removelabel();
+
+Converting GML script: ${project_dir}\scripts\_scr_button_getvisiblelabel\_scr_button_getvisiblelabel.gml
+Converted description /// @description _scr_button_getvisiblelabel();
+
+Converting GML script: ${project_dir}\scripts\_scr_button_calcsizes\_scr_button_calcsizes.gml
+Converted description /// @description _scr_button_calcsizes();
+
+Converting GML script: ${project_dir}\scripts\_scr_ibutton_calcsizes\_scr_ibutton_calcsizes.gml
+Converted description /// @description _scr_ibutton_calcsizes();
+
+Converting GML script: ${project_dir}\scripts\scr_button_set_sizes\scr_button_set_sizes.gml
+Converted description /// @description  scr_button_set_sizes(button_instance, width_px, height_px);/// @param button_instance
+/// @param  width_px
+/// @param  height_px
+
+Converting GML script: ${project_dir}\scripts\scr_button_set_padding\scr_button_set_padding.gml
+Converted description /// @description  scr_button_set_padding(button_object_instance, left_padding_px, right_padding_px);/// @param button_object_instance
+/// @param  left_padding_px
+/// @param  right_padding_px
+
+Converting GML script: ${project_dir}\scripts\scr_button_set_sprite\scr_button_set_sprite.gml
+Converted description /// @description  scr_button_set_sprite(button_object_instance, sprite_index);/// @param button_object_instance
+/// @param  sprite_index
+
+Converting GML script: ${project_dir}\scripts\scr_button_set_font\scr_button_set_font.gml
+Converted description /// @description  scr_button_set_font(button_object, font);/// @param button_object
+/// @param  font
+
+Converting GML script: ${project_dir}\scripts\scr_button_set_font_align\scr_button_set_font_align.gml
+Converted description /// @description scr_button_set_font_align(button_object, halign, valign);/// @param button_object
+/// @param  halign
+/// @param  valign
+
+Converting GML script: ${project_dir}\scripts\scr_button_set_label\scr_button_set_label.gml
+Converted description /// @description  scr_button_set_label(button_object, label);/// @param button_object
+/// @param  label
+
+Converting GML script: ${project_dir}\scripts\scr_button_set_color\scr_button_set_color.gml
+Converted description /// @description  scr_button_set_color(button_object, label_color, hover_color, pressed_color, disabled_color);/// @param button_object
+/// @param  label_color
+/// @param  hover_color
+/// @param  pressed_color
+/// @param  disabled_color
+
+Converting GML script: ${project_dir}\scripts\scr_button_enable_label\scr_button_enable_label.gml
+Converted description /// @description  scr_button_enable_label(button_object, showLabel?);/// @param button_object
+/// @param  showLabel?
+
+Converting GML script: ${project_dir}\scripts\scr_button_set_on_mouseover_cb\scr_button_set_on_mouseover_cb.gml
+Converted description /// @description scr_button_set_on_mouseover_cb(button_instance, script_asset, [arguments_as_array]);/// @param button_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script: ${project_dir}\scripts\scr_button_unset_on_mouseover_cb\scr_button_unset_on_mouseover_cb.gml
+Converted description /// @description scr_button_unset_on_mouseover_cb(button_instance);/// @param button_instance
+
+Converting GML script: ${project_dir}\scripts\scr_button_set_on_mouseout_cb\scr_button_set_on_mouseout_cb.gml
+Converted description /// @description scr_button_set_on_mouseout_cb(button_instance, script_asset, [arguments_as_array]);/// @param button_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script: ${project_dir}\scripts\scr_button_unset_on_mouseout_cb\scr_button_unset_on_mouseout_cb.gml
+Converted description /// @description scr_button_unset_on_mouseout_cb(button_instance);/// @param button_instance
+
+Converting GML script: ${project_dir}\scripts\scr_button_set_on_mousedown_cb\scr_button_set_on_mousedown_cb.gml
+Converted description /// @description scr_button_set_on_mousedown_cb(button_instance, script_asset, [arguments_as_array]);/// @param button_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script: ${project_dir}\scripts\scr_button_unset_on_mousedown_cb\scr_button_unset_on_mousedown_cb.gml
+Converted description /// @description scr_button_unset_on_mousedown_cb(button_instance);/// @param button_instance
+
+Converting GML script: ${project_dir}\scripts\scr_button_set_on_mouseup_cb\scr_button_set_on_mouseup_cb.gml
+Converted description /// @description scr_button_set_on_mouseup_cb(button_instance, script_asset, [arguments_as_array]);/// @param button_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script: ${project_dir}\scripts\scr_button_unset_on_mouseup_cb\scr_button_unset_on_mouseup_cb.gml
+Converted description /// @description scr_button_unset_on_mouseup_cb(button_instance);/// @param button_instance
+
+Converting GML script: ${project_dir}\scripts\_scr_dropdown_setvaluebyitemno\_scr_dropdown_setvaluebyitemno.gml
+Converted description /// @description _scr_dropdown_setvaluebyitemno(itemno_int);/// @param itemno_int
+
+Converting GML script: ${project_dir}\scripts\_scr_dropdown_setkeys\_scr_dropdown_setkeys.gml
+Converted description /// @description _scr_dropdown_setkeys(array_or_dsmap);/// @param array_or_dsmap
+
+Converting GML script: ${project_dir}\scripts\_scr_dropdown_updatekeys\_scr_dropdown_updatekeys.gml
+Converted description /// @description _scr_dropdown_updatekeys();
+
+Converting GML script: ${project_dir}\scripts\_scr_dropdown_addkeys\_scr_dropdown_addkeys.gml
+Converted description /// @description _scr_dropdown_addkeys(single||array||ds_map);/// @param single||array||ds_map
+
+Converting GML script: ${project_dir}\scripts\_scr_dropdown_deletekeys\_scr_dropdown_deletekeys.gml
+Converted description /// @description _scr_dropdown_deletekeys(single);/// @param single
+
+Converting GML script: ${project_dir}\scripts\_scr_dropdown_emptykeys\_scr_dropdown_emptykeys.gml
+Converted description /// @description _scr_dropdown_emptykeys();
+
+Converting GML script: ${project_dir}\scripts\_scr_dropdown_setpopup\_scr_dropdown_setpopup.gml
+Converted description /// @description _scr_dropdown_setpopup();
+
+Converting GML script: ${project_dir}\scripts\_scr_dropdown_setscrollbar\_scr_dropdown_setscrollbar.gml
+Converted description /// @description _scr_dropdown_setscrollbar();
+
+Converting GML script: ${project_dir}\scripts\_scr_dropdown_onchange\_scr_dropdown_onchange.gml
+Converted description /// @description onChange Callback handling
+
+Converting GML script: ${project_dir}\scripts\_scr_dropdown_openpopup\_scr_dropdown_openpopup.gml
+Converted description /// @description _scr_dropdown_openpopup(boolean);/// @param boolean
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_set_value\scr_dropdown_set_value.gml
+Converted description /// @description  scr_dropdown_set_value(dropdown_instance, value);/// @param dropdown_instance
+/// @param  value
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_set_value_by_line_no\scr_dropdown_set_value_by_line_no.gml
+Converted description /// @description scr_dropdown_set_value_by_line_no(dropdown_instance, line_no_int);/// @param dropdown_instance
+/// @param  line_no_int
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_get_value\scr_dropdown_get_value.gml
+Converted description /// @description  scr_dropdown_get_value(dropdown_instance);/// @param dropdown_instance
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_get_num_of_lines\scr_dropdown_get_num_of_lines.gml
+Converted description /// @description  scr_dropdown_get_num_of_lines(dropdown_instance);/// @param dropdown_instance
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_set_list\scr_dropdown_set_list.gml
+Converted description /// @description  scr_dropdown_set_list(dropdown_instance, array_or_dsmap);/// @param dropdown_instance
+/// @param  array_or_dsmap
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_refresh_list\scr_dropdown_refresh_list.gml
+Converted description /// @description  scr_dropdown_refresh_list(dropdown_instance);/// @param dropdown_instance
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_add_to_list\scr_dropdown_add_to_list.gml
+Converted description /// @description  scr_dropdown_add_to_list(dropdown_instance, single_or_array_or_dsmap);/// @param dropdown_instance
+/// @param  single_or_array_or_dsmap
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_delete_from_list\scr_dropdown_delete_from_list.gml
+Converted description /// @description  scr_dropdown_delete_from_list(dropdown_instance, single);/// @param dropdown_instance
+/// @param  single
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_empty_list\scr_dropdown_empty_list.gml
+Converted description /// @description  scr_dropdown_empty_list(dropdown_instance);/// @param dropdown_instance
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_is_empty\scr_dropdown_is_empty.gml
+Converted description /// @description  scr_dropdown_is_empty(dropdown_instance);/// @param dropdown_instance
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_is_selected\scr_dropdown_is_selected.gml
+Converted description /// @description  scr_dropdown_is_selected(dropdown_instance);/// @param dropdown_instance
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_has_scrollbar\scr_dropdown_has_scrollbar.gml
+Converted description /// @description  scr_dropdown_has_scrollbar(dropdown_instance);/// @param dropdown_instance
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_unselect\scr_dropdown_unselect.gml
+Converted description /// @description  scr_dropdown_unselect(dropdown_instance);/// @param dropdown_instance
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_set_target\scr_dropdown_set_target.gml
+Converted description /// @description  scr_dropdown_set_target(dropdown_instance, target_object, target_variable);/// @param dropdown_instance
+/// @param  target_object
+/// @param  target_variable
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_set_scrollbar_width\scr_dropdown_set_scrollbar_width.gml
+Converted description /// @description  scr_dropdown_set_scrollbar_width(dropdown_instance, width_px);/// @param dropdown_instance
+/// @param  width_px
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_set_sizes\scr_dropdown_set_sizes.gml
+Converted description /// @description  scr_dropdown_set_sizes(dropdown_instance, body_width_px, body_height_px);/// @param dropdown_instance
+/// @param  body_width_px
+/// @param  body_height_px
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_set_padding\scr_dropdown_set_padding.gml
+Converted description /// @description  scr_dropdown_set_padding(dropdown_instance, left_padding_px, right_padding_px);/// @param dropdown_instance
+/// @param  left_padding_px
+/// @param  right_padding_px
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_set_popup_padding\scr_dropdown_set_popup_padding.gml
+Converted description /// @description  scr_dropdown_set_popup_padding(dropdown_instance, top_padding_px, bottom_padding_px);/// @param dropdown_instance
+/// @param  top_padding_px
+/// @param  bottom_padding_px
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_set_scrollbar_padding\scr_dropdown_set_scrollbar_padding.gml
+Converted description /// @description scr_dropdown_set_scrollbar_padding(dropdown_instance, top_padding_px, right_padding_px, bottom_padding_px);/// @param dropdown_instance
+/// @param  top_padding_px
+/// @param  right_padding_px
+/// @param  bottom_padding_px
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_set_sprite\scr_dropdown_set_sprite.gml
+Converted description /// @description  scr_dropdown_set_sprite(dropdown_instance, body_sprite_3slices, icon_sprite, popup_body_sprite_9slices, seperator_sprite_3slices);/// @param dropdown_instance
+/// @param  body_sprite_3slices
+/// @param  icon_sprite
+/// @param  popup_body_sprite_9slices
+/// @param  seperator_sprite_3slices
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_set_color\scr_dropdown_set_color.gml
+Converted description /// @description  scr_dropdown_set_color(dropdown_instance, body_normal_text, body_focus_text, body_disabled_text, popup_normal_text, popup_hover_text, scrollbar_background, scrollbar_body);/// @param dropdown_instance
+/// @param  body_normal_text
+/// @param  body_focus_text
+/// @param  body_disabled_text
+/// @param  popup_normal_text
+/// @param  popup_hover_text
+/// @param  scrollbar_background
+/// @param  scrollbar_body
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_set_popup_offset\scr_dropdown_set_popup_offset.gml
+Converted description /// @description  scr_dropdown_set_popup_offset(dropdown_instance, offset_px);/// @param dropdown_instance
+/// @param  offset_px
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_set_popup_lineheight\scr_dropdown_set_popup_lineheight.gml
+Converted description /// @description  scr_dropdown_set_popup_lineheight(dropdown_instance, height_px);/// @param dropdown_instance
+/// @param  height_px
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_set_font\scr_dropdown_set_font.gml
+Converted description /// @description  scr_dropdown_set_font(dropdown_instance, body_font, popup_font);/// @param dropdown_instance
+/// @param  body_font
+/// @param  popup_font
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_set_font_align\scr_dropdown_set_font_align.gml
+Converted description /// @description  scr_dropdown_set_font_align(dropdown_instance, halign, valign);/// @param dropdown_instance
+/// @param  halign
+/// @param  valign
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_set_popup_max_lines\scr_dropdown_set_popup_max_lines.gml
+Converted description /// @description  scr_dropdown_set_popup_max_lines(dropdown_instance, num_of_lines);/// @param dropdown_instance
+/// @param  num_of_lines
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_set_on_change_cb\scr_dropdown_set_on_change_cb.gml
+Converted description /// @description  scr_dropdown_set_on_change_cb(dropdown_instance, script_asset, [arguments_as_array]);/// @param dropdown_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_unset_on_change_cb\scr_dropdown_unset_on_change_cb.gml
+Converted description /// @description  scr_dropdown_unset_on_change_cb(dropdown_instance);/// @param dropdown_instance
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_get_target\scr_dropdown_get_target.gml
+Converted description /// @description  scr_dropdown_get_target(dropdown_instance);/// @param dropdown_instance
+
+Converting GML script: ${project_dir}\scripts\scr_dropdown_get_target_variable_name\scr_dropdown_get_target_variable_name.gml
+Converted description /// @description  scr_dropdown_get_target_variable_name(dropdown_instance);/// @param dropdown_instance
+
+Converting GML script: ${project_dir}\scripts\scr_dropbox_unset_target\scr_dropbox_unset_target.gml
+Converted description /// @description  scr_dropbox_unset_target(dropbox_instance);/// @param dropbox_instance
+
+Converting GML script: ${project_dir}\scripts\_scr_colorpicker_setvalue\_scr_colorpicker_setvalue.gml
+Converted description /// @description _scr_colorpicker_setvalue(value);/// @param value
+
+Converting GML script: ${project_dir}\scripts\_scr_colorpicker_invalidatesurface\_scr_colorpicker_invalidatesurface.gml
+Converted description /// @description _scr_colorpicker_invalidatesurface();
+
+Converting GML script: ${project_dir}\scripts\_scr_colorpicker_openpopup\_scr_colorpicker_openpopup.gml
+Converted description /// @description _scr_colorpicker_openpopup(boolien);/// @param boolien
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_set_sizes\scr_colorpicker_set_sizes.gml
+Converted description /// @description  scr_colorpicker_set_sizes(colorpicker_object_instance, width_px, height_px, border_px);/// @param colorpicker_object_instance
+/// @param  width_px
+/// @param  height_px
+/// @param  border_px
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_set_value\scr_colorpicker_set_value.gml
+Converted description /// @description  scr_colorpicker_set_value(colorpicker_instance, color);/// @param colorpicker_instance
+/// @param  color
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_set_value_rgb\scr_colorpicker_set_value_rgb.gml
+Converted description /// @description  scr_colorpicker_set_value_rgb(colorpicker_instance, r, g, b);/// @param colorpicker_instance
+/// @param  r
+/// @param  g
+/// @param  b
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_set_value_hsv\scr_colorpicker_set_value_hsv.gml
+Converted description /// @description  scr_colorpicker_set_value_hsv(colorpicker_instance, h, s, v);/// @param colorpicker_instance
+/// @param  h
+/// @param  s
+/// @param  v
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_set_value_hex\scr_colorpicker_set_value_hex.gml
+Converted description /// @description  scr_colorpicker_set_value_hex(colorpicker_instance, RRGGBB);/// @param colorpicker_instance
+/// @param  RRGGBB
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_set_ui_color\scr_colorpicker_set_ui_color.gml
+Converted description /// @description  scr_colorpicker_set_ui_color(colorpicker_instance, normal_color, focused_color, disabled_color, popup_bg_color, popup_border_color, light_info_text_color, dark_info_text_color);/// @param colorpicker_instance
+/// @param  normal_color
+/// @param  focused_color
+/// @param  disabled_color
+/// @param  popup_bg_color
+/// @param  popup_border_color
+/// @param  light_info_text_color
+/// @param  dark_info_text_color
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_get_value\scr_colorpicker_get_value.gml
+Converted description /// @description  scr_colorpicker_get_value(colorpicker_instance);/// @param colorpicker_instance
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_show_info\scr_colorpicker_show_info.gml
+Converted description /// @description  scr_colorpicker_show_info(colorpicker_instance, boolean);/// @param colorpicker_instance
+/// @param  boolean
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_auto_copy_to_clipboard\scr_colorpicker_auto_copy_to_clipboard.gml
+Converted description /// @description  scr_colorpicker_auto_copy_to_clipboard(colorpicker_instance, boolean);/// @param colorpicker_instance
+/// @param  boolean
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_set_font\scr_colorpicker_set_font.gml
+Converted description /// @description scr_colorpicker_set_font(dropdown_instance, asset_font);/// @param dropdown_instance
+/// @param  asset_font
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_get_hex_value\scr_colorpicker_get_hex_value.gml
+Converted description /// @description  scr_colorpicker_get_hex_value(colorpicker_instance);/// @param colorpicker_instance
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_set_target\scr_colorpicker_set_target.gml
+Converted description /// @description  scr_colorpicker_set_target(colorpicker_instance, target_object, target_variable);/// @param colorpicker_instance
+/// @param  target_object
+/// @param  target_variable
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_set_on_change_cb\scr_colorpicker_set_on_change_cb.gml
+Converted description /// @description  scr_colorpicker_set_on_change_cb(colorpicker_instance, script_asset, [arguments_as_array]);/// @param colorpicker_instance
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_unset_on_change_cb\scr_colorpicker_unset_on_change_cb.gml
+Converted description /// @description  scr_colorpicker_unset_on_change_cb(colorpicker_instance);/// @param colorpicker_instance
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_set_on_release_cb\scr_colorpicker_set_on_release_cb.gml
+Converted description /// @description scr_colorpicker_set_on_release_cb(colorpicker_object, script_asset, [arguments_as_array]);/// @param colorpicker_object
+/// @param  script_asset
+/// @param  [arguments_as_array]
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_unset_on_release_cb\scr_colorpicker_unset_on_release_cb.gml
+Converted description /// @description scr_colorpicker_unset_on_release_cb(colorpicker_instance);/// @param colorpicker_instance
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_get_target\scr_colorpicker_get_target.gml
+Converted description /// @description  scr_colorpicker_get_target(colorpicker_instance);/// @param colorpicker_instance
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_get_target_variable_name\scr_colorpicker_get_target_variable_name.gml
+Converted description /// @description  scr_colorpicker_get_target_variable_name(colorpicker_instance);/// @param colorpicker_instance
+
+Converting GML script: ${project_dir}\scripts\scr_colorpicker_unset_target\scr_colorpicker_unset_target.gml
+Converted description /// @description  scr_colorpicker_unset_target(colorpicker_instance);/// @param colorpicker_instance
+
+Converting GML script: ${project_dir}\scripts\_scr_getnearestpower\_scr_getnearestpower.gml
+Converted description /// @description _scr_getnearestpower(num, powerof);/// @param num
+/// @param  powerof
+
+Converting GML script: ${project_dir}\scripts\_scr_rotate_point\_scr_rotate_point.gml
+Converted description /// @description _scr_rotate_point(centerx, centery, angle, pointx, pointy){/// @param centerx
+/// @param  centery
+/// @param  angle
+/// @param  pointx
+/// @param  pointy
+
+Converting GML script: ${project_dir}\scripts\_scr_text_sanitize\_scr_text_sanitize.gml
+Converted description /// @description adds escape characters and returns the string
+Converted string - line 3: "\#" -> "\\#"
+
+Converting GML script: ${project_dir}\scripts\_scr_text_shorten\_scr_text_shorten.gml
+Converted description /// @description _scr_text_shorten(txt, font, maxwidth_px);/// @param txt
+/// @param  font
+/// @param  maxwidth_px
+
+Converting GML script: ${project_dir}\scripts\_scr_text_unsanitize\_scr_text_unsanitize.gml
+Converted description /// @description removes escape characters and returns the string
+Converted string - line 3: "\#" -> "\\#"
+
+Converting GML script: ${project_dir}\scripts\scr_draw_9slices_ext\scr_draw_9slices_ext.gml
+Converted description /// @description scr_draw_9slices_ext(sprite, subimage, x1, y1, x2, y2, color, alpha);/// @param sprite
+/// @param  subimage
+/// @param  x1
+/// @param  y1
+/// @param  x2
+/// @param  y2
+/// @param  color
+/// @param  alpha
+
+Converting GML script: ${project_dir}\scripts\scr_dsmap_get_keys\scr_dsmap_get_keys.gml
+Converted description /// @description  scr_dsmap_get_keys(ds_map);/// @param ds_map
+
+Converting GML script: ${project_dir}\scripts\scr_dsmap_get_values\scr_dsmap_get_values.gml
+Converted description /// @description  scr_dsmap_get_values(ds_map);/// @param ds_map
+
+Converting GML script: ${project_dir}\scripts\array_concat_1d\array_concat_1d.gml
+Converted description /// @description  array_concat_1d(array1, array2);/// @param array1
+/// @param  array2
+
+Converting GML script: ${project_dir}\scripts\implode\implode.gml
+Converted description /// @description  implode(delimiter,array)/// @param delimiter
+/// @param array
+
+Converting GML script: ${project_dir}\scripts\dec_to_hex\dec_to_hex.gml
+Converted description /// @description  dec_to_hex(dec)/// @param dec
+
+Converting GML script: ${project_dir}\scripts\color_to_hex\color_to_hex.gml
+Converted description /// @description  color_to_hex(color)/// @param color
+
+Converting GML script: ${project_dir}\scripts\hex_to_dec\hex_to_dec.gml
+Converted description /// @description  hex_to_dec(hex)/// @param hex
+
+Converting GML script: ${project_dir}\scripts\hex_to_color\hex_to_color.gml
+Converted description /// @description  hex_to_color(hex)/// @param hex
+
+Converting GML script: ${project_dir}\scripts\_scr_cbDataGUI_togglegui\_scr_cbDataGUI_togglegui.gml
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description _scr_cbDataGUI_togglegui();
+
+Converting GML script: ${project_dir}\scripts\_scr_cbDataGUI_makevisible\_scr_cbDataGUI_makevisible.gml
+Error: variable 'boolien' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description _scr_cbDataGUI_makevisible(instance, boolean);/// @param instance
+/// @param  boolean
+
+Converting GML script: ${project_dir}\scripts\_scr_cbDataGUI_add\_scr_cbDataGUI_add.gml
+Error: variable 'variable_instance_get' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description _scr_cbDataGUI_add(x, y, cbData_type, target, varname, optional:multiple);/// @param x
+/// @param  y
+/// @param  cbData_type
+/// @param  target
+/// @param  varname
+/// @param  optional:multiple
+
+Converting GML script: ${project_dir}\scripts\_scr_cbDataGUI_newpreset\_scr_cbDataGUI_newpreset.gml
+Converted description /// @description _scr_cbDataGUI_newpreset(optional:name_string);/// @param optional:name_string
+
+Converting GML script: ${project_dir}\scripts\_scr_cbDataGUI_savepreset\_scr_cbDataGUI_savepreset.gml
+Converted description /// @description _scr_cbDataGUI_savepreset(optional:name_string);/// @param optional:name_string
+
+Converting GML script: ${project_dir}\scripts\_scr_cbDataGUI_loadpreset\_scr_cbDataGUI_loadpreset.gml
+Converted description /// @description _scr_cbDataGUI_loadpreset(optional:name_string);/// @param optional:name_string
+
+Converting GML script: ${project_dir}\scripts\_scr_cbDataGUI_delpreset\_scr_cbDataGUI_delpreset.gml
+Converted description /// @description _scr_cbDataGUI_delpreset(optional:name_string);/// @param optional:name_string
+
+Converting GML script: ${project_dir}\scripts\_scr_cbDataGUI_haspreset\_scr_cbDataGUI_haspreset.gml
+Converted description /// @description _scr_cbDataGUI_haspreset(name_string);/// @param name_string
+
+Converting GML script: ${project_dir}\scripts\_scr_cbDataGUI_preset_dropdown_change\_scr_cbDataGUI_preset_dropdown_change.gml
+Converted description /// @description _scr_cbDataGUI_preset_dropdown_change();
+
+Converting GML script: ${project_dir}\scripts\_scr_cbDataGUI_loadpresetfile\_scr_cbDataGUI_loadpresetfile.gml
+Converted description /// @description _scr_cbDataGUI_loadpresetfile();
+
+Converting GML script: ${project_dir}\scripts\_scr_cbDataGUI_savepresetfile\_scr_cbDataGUI_savepresetfile.gml
+Converted description /// @description _scr_cbDataGUI_savepresetfile();
+Converted string - line 20: "\" -> "\\"
+
+Converting GML script: ${project_dir}\scripts\_scr_cbDataGUI_updatedropdown\_scr_cbDataGUI_updatedropdown.gml
+Converted description /// @description _scr_cbDataGUI_updatedropdown();
+
+Converting GML script: ${project_dir}\scripts\_scr_cbDataGUI_import_json_string\_scr_cbDataGUI_import_json_string.gml
+Converted description /// @description _scr_cbDataGUI_import_json_string(string);/// @param string
+
+Converting GML script: ${project_dir}\scripts\_scr_cbDataGUI_tooltip_set\_scr_cbDataGUI_tooltip_set.gml
+Converted description /// @description _scr_cbDataGUI_tooltip_add(target_object, target_variable, description_string);/// @param target_object
+/// @param  target_variable
+/// @param  description_string
+
+Converting GML script: ${project_dir}\scripts\_scr_cbDataGUI_tooltip_unset\_scr_cbDataGUI_tooltip_unset.gml
+Converted description /// @description _scr_cbDataGUI_tooltip_unset(target_object, target_variable);/// @param target_object
+/// @param  target_variable
+
+Converting GML script: ${project_dir}\scripts\scr_otest_change_color\scr_otest_change_color.gml
+Converted description /// @description scr_otest_change_color();
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_set_gui_size\scr_cbDataGUI_set_gui_size.gml
+Converted description /// @description  scr_cbDataGUI_set_gui_size(float);/// @param float
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_create\scr_cbDataGUI_create.gml
+Converted description /// @description  scr_cbDataGUI_create();
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_add\scr_cbDataGUI_add.gml
+Converted description /// @description  scr_cbDataGUI_add(target_obj, target_variable_str, cbData_type, folder_object_or_-1, [optional: multiple_choice]);/// @param target_obj
+/// @param  target_variable_str
+/// @param  cbData_type
+/// @param  folder_object_or_-1
+/// @param  [optional: multiple_choice]
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_add_folder\scr_cbDataGUI_add_folder.gml
+Converted description /// @description  scr_cbDataGUI_add_folder(name, [optional:folder_instance]);/// @param name
+/// @param  [optional:folder_instance]
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_set_gui_width\scr_cbDataGUI_set_gui_width.gml
+Converted description /// @description  scr_cbDataGUI_set_gui_width(number);/// @param number
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_set_step\scr_cbDataGUI_set_step.gml
+Converted description /// @description  scr_cbDataGUI_set_step(target_obj, target_variable_str, step_size_number);/// @param target_obj
+/// @param  target_variable_str
+/// @param  step_size_number
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_set_range\scr_cbDataGUI_set_range.gml
+Converted description /// @description  scr_cbDataGUI_set_range(target_object, target_variable, min_value_number, max_value_number);/// @param target_object
+/// @param  target_variable
+/// @param  min_value_number
+/// @param  max_value_number
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_open_folder\scr_cbDataGUI_open_folder.gml
+Error: variable 'boolien' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description  scr_cbDataGUI_open_folder(folder_instance, boolean);/// @param folder_instance
+/// @param  boolean
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_get_value\scr_cbDataGUI_get_value.gml
+Converted description /// @description  scr_cbDataGUI_get_value(target_object, target_variable);/// @param target_object
+/// @param  target_variable
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_set_value\scr_cbDataGUI_set_value.gml
+Converted description /// @description  scr_cbDataGUI_set_value(target_object, target_variable, value);/// @param target_object
+/// @param  target_variable
+/// @param  value
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_has_row\scr_cbDataGUI_has_row.gml
+Converted description /// @description  scr_cbDataGUI_has_row(target_object, target_variable);/// @param target_object
+/// @param  target_variable
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_toggle_gui\scr_cbDataGUI_toggle_gui.gml
+Converted description /// @description  scr_cbDataGUI_toggle_gui();
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_set_tooltip\scr_cbDataGUI_set_tooltip.gml
+Converted description /// @description  scr_cbDataGUI_set_tooltip(target_object, target_variable, description_string);/// @param target_object
+/// @param  target_variable
+/// @param  description_string
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_unset_tooltip\scr_cbDataGUI_unset_tooltip.gml
+Converted description /// @description  scr_cbDataGUI_unset_tooltip(target_object, target_variable);/// @param target_object
+/// @param  target_variable
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_use_presets\scr_cbDataGUI_use_presets.gml
+Error: variable 'boolien' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description  scr_cbDataGUI_use_presets(boolien);/// @param boolien
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_auto_save_presets\scr_cbDataGUI_auto_save_presets.gml
+Error: variable 'boolien' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description  scr_cbDataGUI_auto_save_presets(boolien);/// @param boolien
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_set_presets_folder\scr_cbDataGUI_set_presets_folder.gml
+Converted description /// @description  scr_cbDataGUI_set_presets_folder(name_string);/// @param name_string
+Converted string - line 19: "\" -> "\\"
+Converted string - line 24: "\" -> "\\"
+Converted string - line 25: "\" -> "\\"
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_add_preset\scr_cbDataGUI_add_preset.gml
+Converted description /// @description  scr_cbDataGUI_add_preset([optional:name_string]);/// @param [optional:name_string]
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_save_preset\scr_cbDataGUI_save_preset.gml
+Converted description /// @description  scr_cbDataGUI_save_preset([optional:name_string]);/// @param [optional:name_string]
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_load_preset\scr_cbDataGUI_load_preset.gml
+Converted description /// @description  scr_cbDataGUI_load_preset(optional:name_string);/// @param optional:name_string
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_delete_preset\scr_cbDataGUI_delete_preset.gml
+Converted description /// @description  scr_cbDataGUI_delete_preset(optional:name_string);/// @param optional:name_string
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_get_preset_json\scr_cbDataGUI_get_preset_json.gml
+Converted description /// @description  scr_cbDataGUI_get_preset_json([copy_to_clipboard?_boolean]);/// @param [copy_to_clipboard?_boolean]
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_import_presets_json\scr_cbDataGUI_import_presets_json.gml
+Converted description /// @description  scr_cbDataGUI_import_presets_json(json_string);/// @param json_string
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_set_notification\scr_cbDataGUI_set_notification.gml
+Converted description /// @description  scr_cbDataGUI_set_notification(message_string, is_error?_boolean, [optional:visible_frame_count]);/// @param message_string
+/// @param  is_error?_boolean
+/// @param  [optional:visible_frame_count]
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_set_on_change_cb\scr_cbDataGUI_set_on_change_cb.gml
+Converted description /// @description  scr_cbDataGUI_set_on_change_cb(target_object, target_variable, script_asset, [args_as_array]);/// @param target_object
+/// @param  target_variable
+/// @param  script_asset
+/// @param  [args_as_array]
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_unset_on_change_cb\scr_cbDataGUI_unset_on_change_cb.gml
+Converted description /// @description  scr_cbDataGUI_unset_on_change_cb(target_object, target_variable);/// @param target_object
+/// @param  target_variable
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_set_on_release_cb\scr_cbDataGUI_set_on_release_cb.gml
+Converted description /// @description  scr_cbDataGUI_set_on_release_cb(target_object, target_variable, script_asset, [args_as_array]);/// @param target_object
+/// @param  target_variable
+/// @param  script_asset
+/// @param  [args_as_array]
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_unset_on_release_cb\scr_cbDataGUI_unset_on_release_cb.gml
+Converted description /// @description  scr_cbDataGUI_unset_on_release_cb(target_object, target_variable);/// @param target_object
+/// @param  target_variable
+
+Converting GML script: ${project_dir}\scripts\scr_cbDataGUI_set_as_listener\scr_cbDataGUI_set_as_listener.gml
+Converted description /// @description  scr_cbDataGUI_set_as_listener(target_object, target_variable);/// @param target_object
+/// @param  target_variable
+
+Converting GML script: ${project_dir}\scripts\json_minify\json_minify.gml
+Converted description /// @description  json_minify(json_string)/// @param json_string
+Converted string - line 17: '"' -> "\""
+Converted string - line 20: "\" -> "\\"
+Converted string - line 22: '"' -> "\""
+
+Converting GML script: ${project_dir}\scripts\gpu_noise_create\gpu_noise_create.gml
+Converted description /// @description  gpu_noise_create(noisetype, seed, width, height);/// @param noisetype
+/// @param  seed
+/// @param  width
+/// @param  height
+
+Converting GML script: ${project_dir}\scripts\gpu_noise_create_ext\gpu_noise_create_ext.gml
+Converted description /// @description  gpu_noise_create_ext(noisetype, seed, width, height, persistence, frequency, scale);/// @param noisetype
+/// @param  seed
+/// @param  width
+/// @param  height
+/// @param  persistence
+/// @param  frequency
+/// @param  scale
+
+Converting GML script: ${project_dir}\scripts\gpu_noise_1d\gpu_noise_1d.gml
+Converted description /// @description  gpu_noise_1d(noise_object, x);/// @param noise_object
+/// @param  x
+
+Converting GML script: ${project_dir}\scripts\gpu_noise_2d\gpu_noise_2d.gml
+Converted description /// @description  gpu_noise_2d(noise_object, x, y);/// @param noise_object
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\gpu_noise_3d\gpu_noise_3d.gml
+Converted description /// @description  gpu_noise_3d(noise_object, x, y, z);/// @param noise_object
+/// @param  x
+/// @param  y
+/// @param  z
+
+Converting GML script: ${project_dir}\scripts\gpu_noise_offset\gpu_noise_offset.gml
+Converted description /// @description  gpu_noise_offset(noise_object, x, [y, z]);/// @param noise_object
+/// @param  x
+/// @param  [y
+/// @param  z]
+
+Converting GML script: ${project_dir}\scripts\gpu_noise_to_surface\gpu_noise_to_surface.gml
+Converted description /// @description  gpu_noise_to_surface(noise_object);/// @param noise_object
+
+Converting GML script: ${project_dir}\scripts\gpu_noise_free\gpu_noise_free.gml
+Converted description /// @description  gpu_noise_free(noıse_object);/// @param noıse_object
+
+Converting GML script: ${project_dir}\scripts\_gpu_noise_calculate\_gpu_noise_calculate.gml
+Converted description /// @description  gpu_noise_calculate(noise_object);/// @param noise_object
+
+!!! Font cbGUIFont uses a font (Oxygen Mono) not installed on this system - Font has NOT been regenerated
+!!! Font cbDataGUIFont uses a font (Overpass Mono Light) not installed on this system - Font has NOT been regenerated
+!!! Font cbDataGUIFontBold uses a font (Overpass Mono) not installed on this system - Font has NOT been regenerated
+Font font0 has been converted to font family Lucida Console (Regular) - Font has been regenerated, small inconsistencies may occur
+Converting GML script: ${project_dir}\objects\obj_cbGUI_textbox\Create_0.gml
+Converted string - line 45: " !\#$%&*+,-./0123456789(){}[]:;<=>?@ABCÇDEFGHIJKLMNOÖPQRSTUÜVWXYZ_abcçdefghijklmnoöpqrstuüvwxyz" -> " !\\#$%&*+,-./0123456789(){}[]:;<=>?@ABCÇDEFGHIJKLMNOÖPQRSTUÜVWXYZ_abcçdefghijklmnoöpqrstuüvwxyz"
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_textbox\Step_0.gml
+Converted description /// @description  step
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_textbox\Mouse_53.gml
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbGUI_textbox\Mouse_53.gml - 20: number of arguments expected 0 got 1
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbGUI_textbox\Mouse_53.gml - 25: unexpected syntax error
+Too many errors - GML not processed : ${project_dir}\objects\obj_cbGUI_textbox\Mouse_53.gml
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_textbox\KeyPress_1.gml
+Converted description /// @description keyboard interactions
+Converted string - line 146: '' -> ""
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_slider\Step_0.gml
+Converted description /// @description  step
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_slider\Mouse_50.gml
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbGUI_slider\Mouse_50.gml - 9: number of arguments expected 0 got 1
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbGUI_slider\Mouse_50.gml - 13: unexpected syntax error
+Too many errors - GML not processed : ${project_dir}\objects\obj_cbGUI_slider\Mouse_50.gml
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_slider\KeyPress_1.gml
+Converted description /// @description keyboard interactions
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_checkbox\Step_0.gml
+Converted description /// @description  step
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_checkbox\Mouse_53.gml
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbGUI_checkbox\Mouse_53.gml - 20: number of arguments expected 0 got 1
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbGUI_checkbox\Mouse_53.gml - 25: unexpected syntax error
+Too many errors - GML not processed : ${project_dir}\objects\obj_cbGUI_checkbox\Mouse_53.gml
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_checkbox\KeyPress_1.gml
+Converted description /// @description keyboard interactions
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_radio\Step_0.gml
+Converted description /// @description  step
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_radio\Mouse_53.gml
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbGUI_radio\Mouse_53.gml - 20: number of arguments expected 0 got 1
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbGUI_radio\Mouse_53.gml - 25: unexpected syntax error
+Too many errors - GML not processed : ${project_dir}\objects\obj_cbGUI_radio\Mouse_53.gml
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_radio\KeyPress_1.gml
+Converted description /// @description keyboard interactions
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_button\Step_0.gml
+Converted description /// @description  step
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_button\Mouse_53.gml
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbGUI_button\Mouse_53.gml - 20: number of arguments expected 0 got 1
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbGUI_button\Mouse_53.gml - 21: unexpected syntax error
+Too many errors - GML not processed : ${project_dir}\objects\obj_cbGUI_button\Mouse_53.gml
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_button\KeyPress_1.gml
+Converted description /// @description keyboard interactions
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_imagebutton\Step_0.gml
+Converted description /// @description mouse & keyboard interactions
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_imagebutton\Mouse_53.gml
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbGUI_imagebutton\Mouse_53.gml - 20: number of arguments expected 0 got 1
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbGUI_imagebutton\Mouse_53.gml - 21: unexpected syntax error
+Too many errors - GML not processed : ${project_dir}\objects\obj_cbGUI_imagebutton\Mouse_53.gml
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_imagebutton\KeyPress_1.gml
+Converted description /// @description keyboard interactions
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_dropdown\Step_0.gml
+Converted description /// @description  step
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_dropdown\KeyPress_1.gml
+Converted description /// @description keyboard interactions
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_colorpicker\Step_0.gml
+Converted description /// @description mouse interactions
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_colorpicker\Draw_64.gml
+Converted string - line 30: "\#" -> "\\#"
+
+Converting GML script: ${project_dir}\objects\obj_cbGUI_colorpicker\KeyPress_1.gml
+Converted description /// @description keyboard interactions
+
+Converting GML script: ${project_dir}\objects\obj_cbDataGUI_controller\Mouse_53.gml
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbDataGUI_controller\Mouse_53.gml - 5: number of arguments expected 0 got 1
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbDataGUI_controller\Mouse_53.gml - 6: unexpected syntax error
+Too many errors - GML not processed : ${project_dir}\objects\obj_cbDataGUI_controller\Mouse_53.gml
+
+Converting GML script: ${project_dir}\objects\obj_cbDataGUI_component\Draw_64.gml
+Converted description /// @description  Draw GUI
+
+Converting GML script: ${project_dir}\objects\obj_cbDataGUI_folder\Step_0.gml
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbDataGUI_folder\Step_0.gml - 11: number of arguments expected 0 got 1
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbDataGUI_folder\Step_0.gml - 18: unexpected syntax error
+Too many errors - GML not processed : ${project_dir}\objects\obj_cbDataGUI_folder\Step_0.gml
+
+Converting GML script: ${project_dir}\objects\obj_cbDataGUI_folder\Draw_64.gml
+Converted description /// @description  Draw GUI Folder
+
+Converting GML script: ${project_dir}\objects\obj_cbDataGUI_preset\Create_0.gml
+Converted string - line 23: "test\" -> "test\\"
+
+Converting GML script: ${project_dir}\objects\obj_cbDataGUI_tooltip\Alarm_1.gml
+Converted description /// @description  Sets tooltip popup position with a low priority.
+
+Converting GML script: ${project_dir}\objects\obj_cbDataGUI_tooltip\Alarm_0.gml
+Converted description /// @description  Show/hide fade anim
+
+Converting GML script: ${project_dir}\objects\obj_cbDataGUI_tooltip\Step_0.gml
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbDataGUI_tooltip\Step_0.gml - 19: number of arguments expected 0 got 1
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbDataGUI_tooltip\Step_0.gml - 23: unexpected syntax error
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\objects\obj_cbDataGUI_tooltip\Step_0.gml - 28: unexpected syntax error
+Too many errors - GML not processed : ${project_dir}\objects\obj_cbDataGUI_tooltip\Step_0.gml
+
+Converting GML script: ${project_dir}\objects\obj_cbDataGUI_notification\Alarm_1.gml
+Converted description /// @description  fading out
+
+Converting GML script: ${project_dir}\objects\obj_cbDataGUI_notification\Alarm_0.gml
+Converted description /// @description  visible time
+
+String not found: ConversionLog_ScriptNameInUse
+String not found: ConversionLog_ScriptNameInUse
+String not found: ConversionLog_ScriptNameInUse
+Added compatibility script 'd3d/d3d_transform_add_translation.gml'
+Added compatibility script 'd3d/d3d_transform_set_identity.gml'
+Added compatibility script 'd3d/d3d_transform_set_rotation_z.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'texture/texture_set_interpolation.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'd3d/__init_d3d.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

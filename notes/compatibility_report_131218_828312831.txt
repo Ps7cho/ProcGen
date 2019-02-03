@@ -1,0 +1,47 @@
+Converting GML script: ${project_dir}\scripts\scr_pn_init\scr_pn_init.gml
+Converted description /// @description scr_pn_init();
+
+Converting GML script: ${project_dir}\scripts\scr_pn_set_seed\scr_pn_set_seed.gml
+Converted description /// @description scr_pn_set_seed(seed_integer);/// @param seed_integer
+
+Converting GML script: ${project_dir}\scripts\scr_pn_get_seed\scr_pn_get_seed.gml
+Converted description /// @description scr_pn_get_seed();
+
+Converting GML script: ${project_dir}\scripts\scr_pn_noise\scr_pn_noise.gml
+Converted description /// @description scr_pn_noise(min, max, octaves, persistence, scale, x, [y, z]);/// @param min
+/// @param  max
+/// @param  octaves
+/// @param  persistence
+/// @param  scale
+/// @param  x
+/// @param  [y
+/// @param  z]
+
+Converting GML script: ${project_dir}\scripts\_pn_generate_perm\_pn_generate_perm.gml
+Converted description /// @description _scr_pn_generate_perm();
+
+Converting GML script: ${project_dir}\scripts\_pn_grad1d\_pn_grad1d.gml
+Converted description /// @description _pn_grad1d(i, x);/// @param i
+/// @param  x
+
+Converting GML script: ${project_dir}\scripts\_pn_grad2d\_pn_grad2d.gml
+Converted description /// @description _pn_grad2d(i, x, y);/// @param i
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\_pn_grad3d\_pn_grad3d.gml
+Converted description /// @description _pn_grad3d(i, x, y, z);/// @param i
+/// @param  x
+/// @param  y
+/// @param  z
+
+Converting GML script: ${project_dir}\scripts\_pn_noise1d\_pn_noise1d.gml
+Converted description /// @description _pn_noise1d(x);/// @param x
+
+Converting GML script: ${project_dir}\scripts\_pn_noise2d\_pn_noise2d.gml
+Converted description /// @description _pn_noise2d(x, y);/// @param x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\_pn_noise3d\_pn_noise3d.gml
+ERROR: C:\Users\BSear\Documents\GameMakerStudio2\ProcGen\scripts\_pn_noise3d\_pn_noise3d.gml - 22: number of arguments expected 0 got 4
+Too many errors - GML not processed : ${project_dir}\scripts\_pn_noise3d\_pn_noise3d.gml
