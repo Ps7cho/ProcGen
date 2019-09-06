@@ -3,8 +3,8 @@ image_speed = 0;
 event_inherited();
 
 //draw shadow
-/*top = instance_create_layer(x,y,"Over",TreeTop);
-top.image_index = id.image_index;*/
+//top = instance_create_layer(x,y,"Over",TreeTop);
+//top.image_index = id.image_index;
 
 myName = "Tree";
 //random amount of layers
@@ -23,6 +23,6 @@ repeat(i+1)
    }
 
    //start checking if we're on-screen
-    alarm[0] = 1;
+  alarm[0] = 1;
 
 

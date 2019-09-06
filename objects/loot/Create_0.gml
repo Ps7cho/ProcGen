@@ -11,7 +11,7 @@ if Chance(100){
 		case 2:	drop = lootType.money;		break;
 		}
 	if drop > -1 {
-		var guntype = 2; //bolt rifle
+		var guntype = irandom(3); //bolt rifle
 		var object = LOOTINFO[guntype, gunInfo.object];
 		var item = instance_create_layer(x,y,"Instances",object);
 		item.category = drop;

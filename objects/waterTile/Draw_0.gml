@@ -1,8 +1,9 @@
 /// @description 
 
 
-var waveSpeed = 0.003;
+
 draw_sprite_ext(sprite_index,image_index,x,y,xscale,yscale,rot,c_white, shade);
+
 if grow {
 	xscale += waveSpeed;
 	yscale += waveSpeed;
@@ -16,4 +17,3 @@ if grow {
 		grow = true;	
 	}	
 }
-rot += random_range(-0.1,0.1);

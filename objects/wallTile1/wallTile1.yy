@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "wallTile1",
     "eventList": [
-        {
-            "id": "546ed6c2-c89d-4fd2-bc8e-33a818ca4c2f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "338a96d1-79e0-4b46-9fb5-28c1c9e297d5"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": true,
-    "spriteId": "ef147234-0a25-4362-ba81-983783bee1ae",
+    "spriteId": "b476ee56-ffa0-4b1e-88b4-c1a5ef181433",
     "visible": true
 }

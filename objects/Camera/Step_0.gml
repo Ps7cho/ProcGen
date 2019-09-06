@@ -2,14 +2,21 @@
 
 //update camera destination
 if (instance_exists(follow)){
-	xTo = (follow.x + mouse_x)/2;
-	yTo = (follow.y + mouse_y)/2;
+	followMin = follow.x - followMargin;
+	followMax = follow.x + followMargin;
+	followMinY = follow.y - followMargin;
+	followMaxY = follow.y + followMargin;
 	
+	xTo = ((follow.x) + mouse_x)/2;
+	yTo = ((follow.y) + mouse_y)/2;
+	
+	xTo = clamp(xTo, followMin, followMax)
+	yTo = clamp(yTo, followMinY, followMaxY)
 }
 
 //update object position 
-x += (xTo - x) / 25;
-y += (yTo - y) / 15;
+x += (xTo - x) / 20;
+y += (yTo - y) / 10;
 
 //dont let camera go outside of the room
 x = clamp(x,view_W_half, room_width-view_W_half);

@@ -1,8 +1,11 @@
 /// @description 
 tileWidth = 200
 tileHeight = 150
-col = floor(room_width/tileWidth);
+col = floor(room_width/tileWidth)+1;
 rows = floor(room_height/tileHeight)+1;
+
+GenDisX = floor((room_width/2)/tileWidth);
+GenDisY = floor((room_height/2)/tileHeight)+1;
 
 seed = 486548135
 randomize();
@@ -10,6 +13,9 @@ xpos = 0;
 inc = 0
 water = 30;
 ground = 40;
+
+globalvar cullDistance ;
+cullDistance = 1500;
 
 JsonNames();
 
@@ -39,6 +45,8 @@ for (var i = 0; i <  outpostWidth; i++){
 			ds_grid_set(outpostMap,i,j,100);
 		}
 		//add walls and doors and outpost fixings on 101+
+		//make the walls and doors contextual so they know what direction they should be facing
+		//or if they should be corners.
 	}
 }
 
@@ -54,42 +62,13 @@ instance_create_layer(x1,y1,"Ground",Team1);
 instance_create_layer(x2,y2,"Ground",Team2);
 instance_create_layer(x3,y3,"Ground",Team3);
 
+//use noise to fill map with values
+SetupTileMap();
+TileGenerationX = max(0,GenDisX - 100);
+TileGenerationY = max(0,GenDisY - 100);
 
-// setup the tile map
-for (var j = 0; j < rows; j++){
-	for (var i = 0; i < col; i++){	
-		var val1 = scr_sn_noise(0,99,1,1,0.1,i,j,inc);
-		ds_grid_set(tileMap,i,j,val1);
-	}
-}
 
 //Add in the buildings to the tile map
 ds_grid_set_grid_region(tileMap,outpostMap,0,0,outpostWidth,outpostHeight,(col/2)-floor(outpostWidth/2),(rows/2)-floor(outpostHeight/2));
 
-
-//Make the instnaces from the map
-for (var j = 0; j < rows; j++){
-	for (var i = 0; i < col; i++){	
-		xpos = (i*tileWidth)+tileWidth/2;
-		ypos = (j*tileHeight)+tileHeight/2;
-		var val = ds_grid_get(tileMap,i,j);
-		if val <= water{
-			var tile = instance_create_layer(xpos,ypos,"Water",waterTile);
-			tile.image_index = floor(val/tile.image_number);
-		}else if val >= ground and val < 99{
-			var tile = instance_create_layer(xpos,ypos,"Ground",groundTile);
-			tile.image_index = irandom(tile.image_number) //floor((val-ground)/tile.image_number);
-			instance_deactivate_object(tile);
-		}else if val >= 100{
-			if val == 100 instance_create_layer(xpos,ypos,"Building",floorTile);
-			if val == 101 instance_create_layer(xpos,ypos,"Building",wallTile);
-			if val == 102 instance_create_layer(xpos,ypos,"Building",doorTile);
-			if val == 103 instance_create_layer(xpos,ypos,"Building",doorTile1);
-			if val == 104 instance_create_layer(xpos,ypos,"Building",wallTile1);
-		}else{//sand
-			var tile = instance_create_layer(xpos,ypos,"Sand",sandTile1);
-			tile.image_index = irandom(tile.image_number);
-			instance_deactivate_object(tile);
-		}
-	}
-}
+GroundTiles();

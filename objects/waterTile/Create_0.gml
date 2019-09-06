@@ -6,6 +6,7 @@ shade = 0.99;
 xscale = random_range(0.8,1.39);
 yscale = xscale;
 rot = 0;
+waveSpeed = 0.003;
 
 grow = true;
 

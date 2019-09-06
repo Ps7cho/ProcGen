@@ -14,6 +14,8 @@ event_inherited();
 stalking = 600;
 radius = 400;
 
+timer = 60;
+deactivationInterval = 30;
 
 myName = ds_list_find_value(global.Names,irandom(global.totalNames));
 

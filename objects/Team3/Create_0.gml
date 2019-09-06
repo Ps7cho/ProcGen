@@ -1,2 +1,2 @@
 /// @description 
-teamColor = c_orange;
+teamColor = make_color_rgb(242,200,145);

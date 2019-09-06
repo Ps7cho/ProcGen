@@ -12,7 +12,7 @@ if place_free(xtarg,ytarg) {
     x = xtarg;
     y = Wave(ytarg-3,ytarg+3,0.5,0);
 }else {
-    var sweep_interval = 10;
+    var sweep_interval = 20;
     
     for ( var angle = sweep_interval; angle <= 80; angle += sweep_interval) {
         for ( var multiplier = -1; multiplier <= 1; multiplier += 2) {      

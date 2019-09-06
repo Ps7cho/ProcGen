@@ -43,6 +43,16 @@ if collision_circle(x,y,radius,Player,false,true){
 }
 
 
+/// @description 
+timer --;
+
+if timer <= 0{
+	if distance_to_point(Camera.x,Camera.y) > 2500 {
+		instance_deactivate_object(id);	
+	}
+	timer = deactivationInterval;
+}
+
 
 Inputs1();
 

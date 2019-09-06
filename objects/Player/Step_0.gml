@@ -1,5 +1,3 @@
-
-
 /// @description 
 
 global.seconds_passed = delta_time/1000000;
@@ -38,17 +36,19 @@ if highlight {
 					damageDealt = (other.gunDamage)*(other.probability/100);		//Damage range
 					Health -= damageDealt;
 				}
-			}else{							//miss
+			}else{								//miss
 				
 			}
 			move_speed = crouchSpeed;
 			shoot = gunRate;
 		}
 	}else{
-		LookingDirection(mouse_x,mouse_y);
 		shooting = false;
 		move_speed = maxMoveSpeed;
 	}
+}
+if !shooting{
+	LookingDirection(mouse_x,mouse_y);		//looking
 }
 #endregion
 

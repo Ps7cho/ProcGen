@@ -1,7 +1,7 @@
 {
     "id": "2e048619-82ef-4216-b6cb-7c2edb657bc4",
     "modelName": "GMFont",
-    "mvc": "1.0",
+    "mvc": "1.1",
     "name": "cbDataGUIFont",
     "AntiAlias": 1,
     "TTFName": "",
@@ -10,6 +10,7 @@
     "charset": 1,
     "first": 0,
     "fontName": "Overpass Mono Light",
+    "glyphOperations": 0,
     "glyphs": [
         {
             "Key": 32,
@@ -3372,13 +3373,16 @@
             }
         }
     ],
-    "image": null,
+    "hinting": 0,
     "includeTTF": false,
+    "interpreter": 0,
     "italic": false,
     "kerningPairs": [
         
     ],
     "last": 0,
+    "maintainGms1Font": false,
+    "pointRounding": 0,
     "ranges": [
         {
             "x": 32,
