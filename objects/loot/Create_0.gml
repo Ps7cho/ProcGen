@@ -21,6 +21,5 @@ if Chance(100){
 	}
 
 
-
 }
 instance_destroy();
