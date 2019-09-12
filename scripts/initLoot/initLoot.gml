@@ -1,17 +1,16 @@
 
 enum lootType {
-	gun,
+	weapon,
 	ammo,
 	money,
 	
 }
 
-enum gunType {
-	pistol,
-	automaticRifle,
-	boltRifle,
-	burstRifle,
-	//semiAutomatic
+enum weaponType {
+	dagger,
+	sword,
+	axe,
+	bow,
 }
 
 enum gunInfo {
@@ -28,8 +27,9 @@ enum gunInfo {
 
 globalvar LOOTINFO; LOOTINFO = 0;
 
-var ic = lootType.gun;
-setupLoot(gunType.pistol, "Handgun", ic, objPistol, spr_oneHandSword, 4, 8, 400);
-setupLoot(gunType.automaticRifle, "AR-15", ic, objRifle, spr_handHalf, 6, 6, 500);
-setupLoot(gunType.boltRifle, "Bolt Action", ic, objSniper, spr_Bastard, 80, 20, 1200);
-setupLoot(gunType.burstRifle, "Burst Rifle", ic, objPulse, spr_Axe, 12, 10, 800);
+var ic = lootType.weapon;
+//			item		Item type						name		cat	object		image				dmg	RoF	Range
+setupLoot(				weaponType.sword,		"Hebrons Blade",	ic, objPistol,	spr_oneHandSword,	4,	0,	400);
+setupLoot(				weaponType.sword,		"Elven Blight",		ic, objRifle,	spr_handHalf,		6,	0,	500);
+setupLoot(				weaponType.sword,		"Bastard Sword",	ic, objSniper,	spr_Bastard,		80, 0,	1200);
+setupLoot(				weaponType.axe,			"Ogdens War Axe",	ic, objPulse,	spr_Axe,			12, 0,	800);

@@ -6,7 +6,7 @@ if Chance(100){
 	var number = irandom(0);
 	switch number{
 			// roll what loot 
-		case 0:	drop = lootType.gun;	break;
+		case 0:	drop = lootType.weapon;	break;
 		case 1:	drop = lootType.ammo;		break;
 		case 2:	drop = lootType.money;		break;
 		}

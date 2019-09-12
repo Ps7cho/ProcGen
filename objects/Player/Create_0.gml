@@ -19,8 +19,8 @@ harvestDistance = 200;
 
 initLoot();
 
-gun = gunType.pistol;
-updateGun(gun);
+var startingSword = weaponType.dagger;
+updateGun(startingSword);
 
 
 shooting = false;

@@ -2895,6 +2895,14 @@
             }
         },
         {
+            "Key": "865787aa-1552-4b4c-96fa-fadf27310d2c",
+            "Value": {
+                "id": "cdd9405b-2512-4c5c-b5b7-9548aa6eec17",
+                "resourcePath": "sprites\\spr_handHalf1\\spr_handHalf1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "86a53835-ebea-43a1-a795-3aceeb6fa5ca",
             "Value": {
                 "id": "43274e41-f81a-4d70-affb-2c479bd12b46",
@@ -5991,7 +5999,8 @@
         "bd2a5e18-ed1c-4c14-a43c-145b9345dcd0",
         "f6afda07-452c-4410-b1d4-9741593cff53",
         "da37be98-2a78-48c3-abb9-a9d300dcce91",
-        "543da3a0-d330-4894-9253-d2d3d8dd6604"
+        "543da3a0-d330-4894-9253-d2d3d8dd6604",
+        "80a31714-dd82-4d42-8e7c-b65b4900fb2a"
     ],
     "tutorial": ""
 }
